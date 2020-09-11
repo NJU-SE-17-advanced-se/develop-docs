@@ -17,6 +17,7 @@
 
    1. 参考链接：https://docs.docker.com/engine/install/ubuntu/
    2. 如果出现类似于 Unable to locate package docker-ce 的问题，可能是配置镜像时选择了错误的架构。参考链接：https://blog.csdn.net/HermitSun/article/details/108542163
+   3. 如果下载docker速度过慢，可以考虑使用阿里云镜像。参考链接：https://developer.aliyun.com/article/110806。
 
 5. 测试安装结果：`docker run hello-world`，应当输出：
 
